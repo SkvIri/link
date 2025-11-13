@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{siteConfig.name}} - Социальные сети</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-pattern"></div>
+
+    <div class="container">
+        <div class="profile">
+            <img src="image\avatar.jpg" alt="{{siteConfig.name}}" class="avatar">
+            <h1 id="username">{{siteConfig.name}}</h1>
+            <p class="description">{{siteConfig.description}}</p>
+        </div>
+
+        <!-- Плитки будут созданы автоматически -->
+        <div class="links-grid" id="links-container">
+            <!-- Кнопки создаются через JavaScript -->
+        </div>
+
+        <!-- Галерея проектов -->
+        <section class="projects-section" id="projects-section">
+            <h2 class="section-title">Мои Проекты</h2>
+            <div class="projects-grid">
+                <!-- Проекты создаются через JavaScript -->
+            </div>
+        </section>
+
+        <div class="footer">
+            {{siteConfig.footer}}
+        </div>
+    </div>
+
+    <!-- Модальное окно ошибки -->
+    <div class="error-modal" id="errorModal">
+        <div class="modal-content">
+            <span class="modal-icon">⚠️</span>
+            <h3 class="modal-title">Ошибка</h3>
+            <p class="modal-text">Данная кнопка не настроена.</p>
+            <button class="modal-close" onclick="closeErrorModal()">Закрыть</button>
+        </div>
+    </div>
+
+    <!-- Подключаем скрипты (ТОЛЬКО ОДИН РАЗ!) -->
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
