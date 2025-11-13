@@ -15,7 +15,7 @@ const buttonsConfig = [
     },
     {
         name: "Steam",
-        url: "none",
+        url: "https://steamcommunity.com/id/SkvIri/",
         icon: "🎮"
     },
     {
@@ -55,3 +55,4 @@ const projectsConfig = [
     }
 
 ];
+
