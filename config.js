@@ -25,17 +25,17 @@ const buttonsConfig = [
     },
     {
         name: "GitHub",
-        url: "none",
+        url: "https://github.com/SkvIri",
         icon: "💻"
     },
     {
         name: "Telegram",
-        url: "none",
+        url: "http://t.me/SkvIri_t",
         icon: "✈️"
     },
     {
         name: "Twitch",
-        url: "none",
+        url: "https://www.twitch.tv/go_skviri",
         icon: "👾"
     }
 ];
@@ -44,15 +44,6 @@ const buttonsConfig = [
 const projectsConfig = [
     {
         id: 1,
-        title: "KNGT Admin",
-        description: "Технический админ сообщества KNGT",
-        image: "image/kgnt.png",
-        tags: ["Minecraft", "Fabric", "Java"],
-        links: [],
-        status: "released"
-    },
-    {
-        id: 2,
         title: "Свой сервер",
         description: "Засекречено!",
         image: "image/cs_server.png",
@@ -62,4 +53,5 @@ const projectsConfig = [
         ],
         status: "development"
     }
+
 ];
